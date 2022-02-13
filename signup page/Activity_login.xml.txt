@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="50dp"
+        android:textColor="#40e0d0"
+        android:fontFamily="@font/amaranth"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="125dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:fontFamily="@font/amaranth"
+        android:drawableLeft="@drawable/person"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:hint="\   Email "
+        android:inputType="text"
+        android:id="@+id/email"
+        android:textSize="20dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/button"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:fontFamily="@font/amaranth"
+            android:drawableLeft="@drawable/error"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="270dp"
+            android:hint="\   Password"
+            android:id="@+id/password"
+            android:inputType="text"
+            android:textSize="20dp"
+            android:textColorHint="@color/black"
+            android:background="@drawable/button"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:fontFamily="@font/amaranth"
+        android:drawableLeft="@drawable/edit"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="340dp"
+        android:hint="\    Reset password"
+        android:id="@+id/reset"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/button"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:fontFamily="@font/amaranth"
+        android:drawableLeft="@drawable/cloud"
+        android:layout_marginTop="390dp"
+        android:hint="\    Remember me!"
+        android:textSize="18dp"
+        android:background="@android:color/transparent"
+        android:textColorHint="@color/black"
+        android:layout_marginLeft="40dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amaranth"
+        android:layout_marginTop="460dp"
+        android:hint="\    Sign up using social accounts"
+        android:textSize="19dp"
+        android:background="@android:color/transparent"
+        android:textColorHint="@color/black"
+        android:layout_marginLeft="70dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="500dp"
+            android:src="@drawable/google" />
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="500dp"
+            android:src="@drawable/fb" />
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="500dp"
+            android:src="@drawable/ms" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="102dp"
+        android:background="@drawable/round"
+        android:fontFamily="@font/amaranth"
+        android:text="Sign Up"
+        android:textColor="#40e0d0"
+        android:textSize="30dp"></androidx.appcompat.widget.AppCompatButton>
+
+
+</RelativeLayout>
